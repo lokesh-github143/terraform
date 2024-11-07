@@ -23,7 +23,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v2
         with:
           role-to-assume: arn:aws:iam::014498633891:role/terraform-role  # Replace with your role ARN
-          aws-region: us-west-2  # Replace with your AWS region
+          aws-region: ap-southeast-2 # Replace with your AWS region
 
       # Step 3: Run AWS commands or other tasks
       - name: List S3 buckets (example)
