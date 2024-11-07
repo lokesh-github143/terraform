@@ -26,5 +26,5 @@ jobs:
           aws-region: ap-southeast-2 # Replace with your AWS region
 
       # Step 3: Run AWS commands or other tasks
-      - name: List S3 buckets (example)
-        run: aws s3 ls
+      - name: List ec2(example)
+        run: aws ec2 describe-instances --region us-east-1
